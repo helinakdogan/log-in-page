@@ -22,8 +22,13 @@
   }
 }
 
-label {
+div {
   text-align: left;
+  padding: 0.25rem 0;
+}
+
+h2{
+  text-align: center;
   padding: 0.25rem 0;
 }
 
