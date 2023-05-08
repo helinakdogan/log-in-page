@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 .auth-form-container, .login-form, .register-form {
@@ -16,20 +16,24 @@
 @media screen and (min-width: 600px) {
   .auth-form-container {
     padding: 5rem;
-    border: 1px solid white;
-    border-radius: 10px;
+    //border: 1px solid gray;
+    border-radius: 25px;
     margin: 0.5rem;
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   }
 }
 
 div {
   text-align: left;
   padding: 0.25rem 0;
+  font-weight: bold;
 }
 
 h2{
   text-align: center;
   padding: 0.25rem 0;
+  font-weight: bold;
 }
 
 input {
@@ -45,7 +49,9 @@ button {
   padding: 20px;
   border-radius: 10px;
   cursor: pointer;
-  color: #7439db;
+  color: white;
+  font-weight: bold;
+  background-color: #4A5F90;
 }
 
 .link-btn {
