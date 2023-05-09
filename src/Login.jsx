@@ -13,7 +13,7 @@ export const Login = (props) => {
     return (
         <div className="auth-form-container">
 
-            <h2>Log In</h2>
+            <h2>Sign In</h2>
 
             <form className="login-form" onSubmit={handleSubmit}>
 
@@ -22,11 +22,12 @@ export const Login = (props) => {
                 
                 <div className="password">Password</div>
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
+                <br></br>
                 
-                <button type="submit">Log In</button>
+                <button type="submit">Sign In</button>
             </form>
 
-            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
+            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Sign up here.</button>
         </div>
     )
 }
